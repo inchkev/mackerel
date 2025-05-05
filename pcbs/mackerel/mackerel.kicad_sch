@@ -4083,7 +4083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mackerel:rp2040-zero-smd_modified-semi-reversible"
+		(property "Footprint" "mackerel:rp2040-zero-tht_modified-semi-reversible"
 			(at 182.88 59.69 0)
 			(effects
 				(font
