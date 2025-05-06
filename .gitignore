@@ -25,4 +25,4 @@ kbplacer.log
 *.round-tracks-config
 
 .DS_Store
-
+ignore
