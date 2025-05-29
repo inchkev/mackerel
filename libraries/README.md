@@ -1,10 +1,21 @@
-### attributions
+### licenses & attributions
 
-#### [daprice/keyswitches.pretty](https://github.com/daprice/keyswitches.pretty): `Kailh_socket_PG1350_reversible.kicad_mod` ([Licensed under CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))
+#### `Kailh_socket_PG1350_reversible.kicad_mod`
 
-#### [jimmerricks/swoop](https://github.com/jimmerricks/swoop/tree/main/libraries/swoop.pretty): `D3_SMD.kicad_mod`, `TRRS-3pin.kicad_mod`, ([Solderpad Hardware License v2.1](https://solderpad.org/licenses/SHL-2.1/))
+From [daprice/keyswitches.pretty](https://github.com/daprice/keyswitches.pretty). By [Dale Price](https://github.com/daprice), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
-#### [crides/kleeb](https://github.com/crides/kleeb): `rp2040-zero-tht.kicad_mod`, `mcu.kicad_sym` (MIT License)
+#### `D_SMD_TH`, `D3_SMD`, `Reset`, `TRRS-3pin`, `ProMicro_jumpers` 
+
+From [jimmerricks/swoop](https://github.com/jimmerricks/swoop/tree/main/libraries/swoop.pretty). By [Jim Merricks White](https://github.com/jimmerricks), licensed under [Solderpad Hardware License v2.1](https://solderpad.org/licenses/SHL-2.1/). license copy: [LICENSE-SOLDERPAD](./LICENSE-SOLDERPAD)
+
+
+#### `D3_SMD_modified.kicad_mod`, `TRRS-3pin_modified.kicad_mod`
+
+Modified to change the silkscreen layer.
+
+#### `rp2040-zero-tht.kicad_mod`, `mcu.kicad_sym`
+
+From [crides/kleeb](https://github.com/crides/kleeb). Licensed under the MIT License. License text:
 
 ```
 MIT License
@@ -30,13 +41,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### My own
-
 All derivatives of the above (same prefix). All licensed under CERN-OHL-W-2.0.
 
-#### `D3_SMD_modified.kicad_mod`, `TRRS-3pin_modified.kicad_mod`
-
-Modified to change the silkscreen layer.
 
 #### `rp2040-zero-tht_modified-semi-reversible.kicad_mod`
 

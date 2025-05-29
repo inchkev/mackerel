@@ -170,6 +170,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -1530,8 +1612,8 @@
 		(uuid "a1c72943-916a-4615-bd27-e44fecfa4f3c")
 	)
 	(no_connect
-		(at 204.47 55.88)
-		(uuid "d2db9392-fe62-4efd-9cde-ca6529048ecb")
+		(at 204.47 58.42)
+		(uuid "a846aad0-aaeb-48c4-ab1f-d3973d9ca19d")
 	)
 	(wire
 		(pts
@@ -1945,6 +2027,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 55.88) (xy 210.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876d49cc-6cd6-4314-bd36-9abfe2870b90")
+	)
+	(wire
+		(pts
 			(xy 121.92 48.26) (xy 121.92 63.5)
 		)
 		(stroke
@@ -2052,16 +2144,6 @@
 			(type default)
 		)
 		(uuid "9fd804b8-472c-461d-bfa1-17c63daad37c")
-	)
-	(wire
-		(pts
-			(xy 204.47 58.42) (xy 210.82 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a11c281d-e11d-4cbf-9df0-a6f2e8d3ee48")
 	)
 	(wire
 		(pts
@@ -2411,8 +2493,8 @@
 		)
 		(uuid "655640f3-39d7-484a-ae5a-e553200e4675")
 	)
-	(label "RX"
-		(at 210.82 58.42 0)
+	(label "TX"
+		(at 210.82 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2510,7 +2592,7 @@
 		)
 		(uuid "bfe8660b-39aa-47cb-bac3-2a2b67b65570")
 	)
-	(label "RX"
+	(label "TX"
 		(at 198.12 115.57 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2826,6 +2908,70 @@
 			(project "mackerel"
 				(path "/1717b0a7-21a3-4878-a536-f4352e8f0c36"
 					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 153.67 50.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a0957a2-2aed-4fe4-a843-65163c5ede5e")
+		(property "Reference" "H3"
+			(at 156.21 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 156.21 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mackerel"
+				(path "/1717b0a7-21a3-4878-a536-f4352e8f0c36"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -4929,6 +5075,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 153.67 45.72 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d2431cc-ad07-46c1-b9e9-5efdcaa145d6")
+		(property "Reference" "H2"
+			(at 156.21 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 156.21 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 153.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mackerel"
+				(path "/1717b0a7-21a3-4878-a536-f4352e8f0c36"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 96.52 93.98 0)
 		(unit 1)
@@ -6861,6 +7071,70 @@
 			(project "mackerel"
 				(path "/1717b0a7-21a3-4878-a536-f4352e8f0c36"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 153.67 40.64 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddc37cf0-e3d7-4baf-8662-0a151fd78e76")
+		(property "Reference" "H1"
+			(at 156.21 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 156.21 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 153.67 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1717b0a7-21a3-4878-a536-f4352e8f0c36"
+					(reference "H1")
 					(unit 1)
 				)
 			)

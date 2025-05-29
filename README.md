@@ -27,3 +27,7 @@ mackerel is a 58 key (6x4+5 split) column-staggered choc-spaced split ergonomic 
 * [calico](https://github.com/inchkev/calico) and all its inspirations
 * [pluckey by floookay](https://github.com/floookay/pluckey)
 * [TOTEM by GEIGEIGEIST](https://github.com/GEIGEIGEIST/TOTEM)
+
+### and licensed under
+
+[CERN-OHL-W-2.0](https://spdx.org/licenses/CERN-OHL-W-2.0.html) overall. mackerel uses footprints, modified and unmodified, under different licenses. see [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
