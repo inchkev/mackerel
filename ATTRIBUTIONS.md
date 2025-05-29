@@ -4,10 +4,6 @@
 
 By [Dale Price](https://github.com/daprice), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), from [daprice/keyswitches.pretty](https://github.com/daprice/keyswitches.pretty).
 
-#### `mcu.kicad_sym`
-
-By [Steven](https://github.com/crides), licensed under [MIT](https://opensource.org/license/mit), from [crides/kleeb](https://github.com/crides/kleeb). See [libraries/LICENSE-MIT](libraries/LICENSE-MIT).
-
 #### `rp2040-zero-tht_modified-semi-reversible.kicad_mod`
 
 Modification by [Kevin Chen](https://github.com/inchkev/), licensed under [CERN-OHL-W-2.0](https://spdx.org/licenses/CERN-OHL-W-2.0.html). See [LICENSE](LICENSE).
@@ -24,3 +20,8 @@ See [libraries/LICENSE-SHL](libraries/LICENSE-SHL).
 
 Originals (`D3_SMD.kicad_mod`, `TRRS-3pin.kicad_mod`) by [Jim Merricks White](https://github.com/jimmerricks), from [jimmerricks/swoop](https://github.com/jimmerricks/swoop/tree/main/libraries/swoop.pretty).
 
+### `libraries/`
+
+#### `mcu.kicad_sym`
+
+By [Steven](https://github.com/crides), licensed under [MIT](https://opensource.org/license/mit), from [crides/kleeb](https://github.com/crides/kleeb). See [libraries/LICENSE-MIT](libraries/LICENSE-MIT).
