@@ -8,10 +8,10 @@ By [Dale Price](https://github.com/daprice), licensed under [CC BY-SA 4.0](https
 
 Modified footprint by [Kevin Chen](https://github.com/inchkev/), licensed under [CERN-OHL-W-2.0](https://spdx.org/licenses/CERN-OHL-W-2.0.html). See [LICENSE](LICENSE).
 
+Modified to be "semi-reversible". Added edge cuts for direct soldering. Added solder pads for reversible mounting. "Semi-reversible" as not all pads were wired to solder pads due to edge cuts being in the way. Only the 14 pins needed were made connected.
+
 Original footprint by [Steven](https://github.com/crides) (c) 2021, licensed under [MIT](https://opensource.org/license/mit), from [crides/kleeb](https://github.com/crides/kleeb).
 See [libraries/LICENSE-MIT](libraries/LICENSE-MIT).
-
-Modified to be "semi-reversible". Added edge cuts for direct soldering. Added solder pads for reversible mounting. "Semi-reversible" because not all pads were wired to solder pads, due to edge cuts being in the way. Only the 14 pins needed were made connected.
 
 #### `D3_SMD_modified.kicad_mod`, `TRRS-3pin_modified.kicad_mod`
 
